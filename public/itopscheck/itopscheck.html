@@ -1,0 +1,170 @@
+<html><body><h3>BILLINGCHECK</h3>
+<head>
+  <meta charset="utf-8">
+</head>
+
+<?php
+echo $_SERVER['REMOTE_USER'];
+
+if ($_SERVER['REMOTE_USER'] == "hapi"  || $_SERVER['REMOTE_USER'] == "kij"  || $_SERVER['REMOTE_USER'] == "perr"  || $_SERVER['REMOTE_USER'] == "kunuk") {
+
+  print("  is authorized to use this feature today ");
+}
+else
+{
+  print(" is not authorized to use this feature, incident will be reported today ");
+exit;
+}
+
+?>
+
+<table border="1" style="width:600px">
+<a href="/">HOME</a>
+<br>
+<br>
+
+<tr>
+<td>insert checklog</td>
+<td><a href="dataunixlog_insert.php">goto</td>
+<td>.</td>
+<td>.</td>
+</tr>
+<tr>
+<td>update checklog</td>
+<td><a href="dataunixlog_update.php">goto</td>
+<td>.</td>
+<td>.</td>
+</tr>
+<tr>
+<td>delete checklog</td>
+<td><a href="dataunixlog_delete.php">goto</td>
+<td>.</td>
+<td>.</td>
+</tr>
+<tr>
+<td>select checklog</td>
+<td><a href="dataunixlog_select.php">goto</td>
+<td>.</td>
+<td>.</td>
+</tr>
+<tr>
+<td>select restore log</td>
+<td><a href="dataunixlog_backup_select.php">goto</td>
+  <td>.</td>
+  <td>.</td>
+</tr>
+</table>
+</body>
+</html>
+
+<html><body><h3>ERROR LOG</h3>
+<table border="1" style="width:600px">
+<tr>
+<td>insert errorlog</td>
+<td><a href="error_log_insert.php">goto</td>
+<td>.</td>
+<td>.</td>
+</tr>
+<tr>
+<td>update errorlog</td>
+<td><a href="error_log_update.php">goto</td>
+<td>.</td>
+<td>.</td>
+</tr>
+<tr>
+<td>delete errorlog</td>
+<td><a href="error_log_delete.php">goto</td>
+<td>.</td>
+<td>.</td>
+</tr>
+<tr>
+<td>select checklog</td>
+<td><a href="error_log_select.php">goto</td>
+<td>.</td>
+<td>.</td>
+</tr>
+<tr>
+</table>
+</body>
+</html>
+
+
+<html><body><h3>REVISIONS LOG</h3>
+<table border="1" style="width:600px">
+<tr>
+<td>Godkend Årshjul</td>
+<td><a href="revision_insert.php">goto</td>
+<td>.</td>
+<td>.</td>
+</tr>
+<tr>
+<td>update errorlog</td>
+<td><a href="revision_update.php">goto</td>
+<td>.</td>
+<td>.</td>
+</tr>
+<tr>
+<td>delete errorlog</td>
+<td><a href="revision_delete.php">goto</td>
+<td>.</td>
+<td>.</td>
+</tr>
+<tr>
+<td>select checklog</td>
+<td><a href="revision_select.php">goto</td>
+<td>.</td>
+<td>.</td>
+</tr>
+<tr>
+</table>
+</body>
+</html>
+
+
+
+
+
+
+
+<!--<html><body><h3>CHECK LOG</h3>
+<table border="1" style="width:600px">
+<tr>
+<td>insert checklog</td>
+<td><a href="checklog_insert.php">goto</td>
+<td>.</td>
+<td>.</td>
+</tr>
+<tr>
+<td>update checklog</td>
+<td><a href="checklog_update.php">goto</td>
+<td>.</td>
+<td>.</td>
+</tr>
+<tr>
+<td>delete checklog</td>
+<td><a href="checklog_delete.php">goto</td>
+<td>.</td>
+<td>.</td>
+</tr>
+<tr>
+<td>select checklog</td>
+<td><a href="checklog_select.php">goto</td>
+<td>.</td>
+<td>.</td>
+</tr>
+<tr>
+<td>what to do</td>
+<td><a href="checklog_whattodo.php">goto</td>
+<td>.</td>
+<td>.</td>
+</tr>
+<tr>
+<td>How to detect intruders</td>
+<td><a href="https://subhrajitnandy.wordpress.com/how-to-detect-intruders/">goto</td>
+<td>.</td>
+<td>.</td>
+</tr>
+</table>
+</body>
+</html>
+

@@ -196,7 +196,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-4">
+              {{-- <div class="col-md-4">
                   <div class="card card-small mb-4">
                     <div class="card-header border-bottom">
                       <h6 class="m-0">Link to Billingcheck :</h6>
@@ -259,7 +259,7 @@
                     </div>
                   </div>
               </div>
-            </div>
+            </div> --}}
             <!-- End Default Light Table -->
         </div>
 @endsection

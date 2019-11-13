@@ -22,3 +22,8 @@ Route::get('/noc', function () {
 Route::get('/comverse-check', function () {
     return view('comverse-check');
 });
+
+Route::get('/comverse/ADSL_slideshowBU', function () {
+    return view('comverse/ADSL_slideshowBU');
+});
+

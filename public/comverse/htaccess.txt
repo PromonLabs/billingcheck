@@ -1,0 +1,5 @@
+  AuthType Basic
+  AuthName "Authentication Required"
+  AuthUserFile "/home/nocuser/.htpasswd"
+  Require valid-user
+
